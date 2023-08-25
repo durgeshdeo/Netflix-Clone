@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: (0 0 0 / 40%);
+    color: #fff;
+}
+
+.header-img {
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.9) 100%), url(background.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    height: 92vh;
+    
+}
+.header-navbar{
+    display: flex;
+    height: 90px;
+    width: 100%;
+}
+
+.navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 175px;
+}
+.logo{
+    background-image: url(Netflix_Logo_RGB.png);
+    background-size: cover;
+    width: 180px;
+    height: 80px;
+}
+.header-nav-right{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 750px;
+}
+.nav-lang{
+    border: 0.3px solid white;
+    border-radius: 5px;
+}
+.nav-lang select{
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav-lang i{
+    padding-left: 0.5rem;
+}
+.nav-sigin {
+    margin-left: 30px;
+}
+.nav-sigin button{
+    border-radius: 5px;
+    border: none;
+    padding: 4px 16px;
+    width: 80px;
+    height: 30px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 0.88rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerContainer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content-first span {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+.header-content-second {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.header-content-second span {
+    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+}
+
+.header-content-third span{
+    font-size: 1.2rem;
+}
+
+.header-content-fourth{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.inputt input{
+    height: 60px;
+    width: 380px;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 0.7px solid #fff;
+    border-radius: 4px;
+    padding: 24px 8px;
+    color: white;
+}
+.getStarted button{
+    background-color: #e50914;
+    border: none;
+    height: 60px;
+    width: 200px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.pagedivider{
+    background-color: rgb(50, 51, 51);
+    height:5px;
+}
+
+.page2{
+    background-color: #000;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page2-img{
+    background: #000;
+    height: 440px;
+    width: 585px;
+}
+
+.imgpage2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.45) 100%), url(tv.png);
+    background-image: cover;
+    height: 440px;
+    width: 585px;
+}
+
+.page2-content-first span{
+    font-size: 3.2rem;
+    font-weight: 800;
+
+}
+.page2-content-second{
+    margin-top: 20px;
+}
+.page2-content-second span{
+    font-size: 1.4rem;
+    letter-spacing: 1.2px;
+}
+.page2-content-third{
+    margin-top: 10px;
+}
+.page2-content-third span{
+    font-size: 1.4rem;
+    letter-spacing: 1.2px;
+}
+.page3{
+    background-color: #000;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page3-img{
+    background: #000;
+    height: 440px;
+    width: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpage3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.45) 100%), url(mobile-0819.jpg);
+    background-image: cover;
+    height: 440px;
+    width: 585px;
+}
+.page3-content-first span{
+    font-size: 3.2rem;
+    font-weight: 800;
+
+}
+.page3-content-second{
+    margin-top: 2px;
+}
+.page3-content-second span{
+
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+.page3-content-third{
+    margin-top: 25px;
+}
+.page3-content-third span{
+    font-size: 1.4rem;
+    letter-spacing: 1.2px;
+}
+.page3-text{
+    width: 690px;
+}
+.page4{
+    background-color: #000;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page4-img{
+    background: #000;
+    height: 440px;
+    width: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpage4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%), url(device-pile-in.png);
+    background-image: cover;
+    height: 440px;
+    width: 585px;
+}
+.page4-content-first span{
+    font-size: 3.2rem;
+    font-weight: 800;
+
+}
+.page4-content-second{
+    margin-top: 20px;
+}
+.page4-content-second span{
+
+    font-size: 1.4rem;
+    letter-spacing: 1.2px;
+}
+.page4-text{
+    width: 590px;
+}
+.page5{
+    background-color: #000;
+    height: 110vh;
+    width: 100%;
+}
+.page5-content{
+    padding: 72px 0px;
+}
+.page5-content-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.page5-content-header h2{
+    font-size: 3rem;
+}
+.page5-content-block{
+    /* margin-bottom: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page5-content-block-first{
+    background-color: rgb(50, 51, 51);
+    height: 80px;
+    width: 80%;
+    margin-top: 15px;
+    padding: 24px 0px;
+    display: flex;
+    align-items: center;
+}
+.page5-content-block-first span{
+    font-size: 1.7rem;
+    padding-left: 25px;
+    height: 80px;
+    width: 100%;
+    padding: 24px 25.88px;
+}
+.page5-content-block-first :hover{
+    background-color: rgb(87, 86, 86);
+    transform: none;
+    transition:ease-in-out 200ms;
+    cursor: pointer;
+}
+.footer-container{
+    background-color: #000;
+    height: 70vh;
+    padding: 80px 250px;
+}
+.footer-telephone{
+    margin-bottom: 50px;
+}
+.footer-telephone span{
+    font-size: 1.1rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content-first ul li{
+    font-size: 1rem;
+    text-decoration: underline;
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-content-last{
+    margin-top: 80px;
+}
+.footer-content-last span{
+    font-size: 0.9rem;
+}
